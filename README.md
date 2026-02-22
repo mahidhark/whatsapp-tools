@@ -9,7 +9,7 @@
 | # | Tool | Keywords | Status |
 |---|------|----------|--------|
 | 1 | [WhatsApp Link Generator + QR Code](https://www.whatsscale.com/tools/whatsapp-link-generator) | whatsapp link generator, whatsapp qr code | ✅ Live |
-| 2 | WhatsApp Message Formatter | whatsapp bold italic text | ⬜ Coming Soon |
+| 2 | [WhatsApp Message Formatter](https://www.whatsscale.com/tools/whatsapp-message-formatter) | whatsapp bold italic text | ✅ Live |
 | 3 | WhatsApp Greeting Generator | whatsapp greeting message | ⬜ Coming Soon |
 | 4 | Channel Growth Calculator | whatsapp channel growth | ⬜ Coming Soon |
 | 5 | WhatsApp vs Telegram | whatsapp vs telegram | ⬜ Coming Soon |
@@ -37,6 +37,7 @@
 | `ToolCTA` | Soft pitch card with CTA link |
 | `RelatedTools` | Grid of related tool cards |
 | `PrivacyBadge` | Shield icon + "Works offline" message |
+| `CharacterCounter` | Character count display |
 
 ## Project Structure
 ```
@@ -46,6 +47,9 @@ app/tools/
 └── whatsapp-link-generator/
     ├── page.tsx                        # SEO metadata (server component)
     └── LinkGenerator.tsx               # Tool logic (client component)
+└── whatsapp-message-formatter/
+    ├── page.tsx                        # SEO metadata (server component)
+    └── MessageFormatter.tsx             # Tool logic (client component)
 
 components/tools/
 ├── CopyButton.tsx
@@ -53,6 +57,7 @@ components/tools/
 ├── ToolCTA.tsx
 ├── RelatedTools.tsx
 ├── PrivacyBadge.tsx
+├── CharacterCounter.tsx
 └── __tests__/
     ├── CopyButton.test.tsx
     ├── SEOContent.test.tsx
@@ -66,7 +71,7 @@ lib/data/
 
 ## Tests
 
-38 tests across 6 test suites. Run with:
+81 tests across 8 test suites. Run with:
 ```bash
 npx jest tools --verbose
 ```
