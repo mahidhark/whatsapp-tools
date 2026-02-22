@@ -10,7 +10,7 @@
 |---|------|----------|--------|
 | 1 | [WhatsApp Link Generator + QR Code](https://www.whatsscale.com/tools/whatsapp-link-generator) | whatsapp link generator, whatsapp qr code | ✅ Live |
 | 2 | [WhatsApp Message Formatter](https://www.whatsscale.com/tools/whatsapp-message-formatter) | whatsapp bold italic text | ✅ Live |
-| 3 | WhatsApp Greeting Generator | whatsapp greeting message | ⬜ Coming Soon |
+| 3 | [WhatsApp Greeting Generator](https://www.whatsscale.com/tools/whatsapp-greeting-generator) | whatsapp greeting message | ✅ Live |
 | 4 | Channel Growth Calculator | whatsapp channel growth | ⬜ Coming Soon |
 | 5 | WhatsApp vs Telegram | whatsapp vs telegram | ⬜ Coming Soon |
 | 6 | Telegram to WhatsApp Migration Calculator | telegram to whatsapp | ⬜ Coming Soon |
@@ -47,9 +47,13 @@ app/tools/
 └── whatsapp-link-generator/
     ├── page.tsx                        # SEO metadata (server component)
     └── LinkGenerator.tsx               # Tool logic (client component)
-└── whatsapp-message-formatter/
+├── whatsapp-message-formatter/
     ├── page.tsx                        # SEO metadata (server component)
     └── MessageFormatter.tsx             # Tool logic (client component)
+└── whatsapp-greeting-generator/
+    ├── page.tsx                        # SEO metadata (server component)
+    ├── GreetingGenerator.tsx            # Tool logic (client component)
+    └── greetings.json                   # 450 templates (30 occasions × 3 tones × 5)
 
 components/tools/
 ├── CopyButton.tsx
@@ -71,7 +75,7 @@ lib/data/
 
 ## Tests
 
-81 tests across 8 test suites. Run with:
+122 tests across 9 test suites. Run with:
 ```bash
 npx jest tools --verbose
 ```
