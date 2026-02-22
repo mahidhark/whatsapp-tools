@@ -1,0 +1,868 @@
+{
+  "categories": [
+    {
+      "id": "life-events",
+      "label": "Life Events",
+      "occasions": [
+        {
+          "id": "birthday",
+          "label": "Birthday",
+          "emoji": "🎂",
+          "templates": {
+            "formal": [
+              "Wishing you a truly wonderful birthday, {name}. May this new year of your life bring you success, good health, and happiness in abundance. 🎂✨",
+              "Happy birthday, {name}. On this special day, I wish you all the joy and prosperity you deserve. May every dream you hold dear come to fruition. 🎁🌟",
+              "Many happy returns of the day, {name}. May you be blessed with wisdom, peace, and countless reasons to smile in the year ahead. 🎂🙏",
+              "Warmest birthday wishes to you, {name}. Your dedication and kindness inspire everyone around you. Wishing you a memorable celebration. ✨🎉",
+              "Happy birthday, {name}. May this milestone mark the beginning of an extraordinary chapter filled with achievements and cherished moments. 🎂🌹"
+            ],
+            "casual": [
+              "Happy birthday {name}! Hope your day is packed with cake, good vibes, and all the things that make you smile 🎉🥳",
+              "HBD {name}! Another trip around the sun — make it count! Enjoy every moment today 🎂🎈",
+              "Happy birthday {name}! Wishing you the best day ever. You deserve all the good stuff coming your way 🥳💫",
+              "It's your day {name}! Eat too much cake, laugh too loud, and enjoy every second of it 🎉🍰",
+              "Happy birthday to the one and only {name}! Hope this year brings you everything you've been wishing for 🎂❤️"
+            ],
+            "funny": [
+              "Happy birthday {name}! You're not old, you're just a classic edition with a few extra updates 😂🎂",
+              "Happy birthday {name}! Don't worry about the age — you still don't look a day over fabulous 🤣🎉",
+              "Another year older {name}, but let's be honest — you stopped counting after 25 anyway 😂🎂",
+              "Happy birthday {name}! At this point the candles cost more than the cake 🕯️😂🎂",
+              "HBD {name}! Fun fact — you now share your age with a fine cheese. And just like cheese, you're only getting better 🧀😂"
+            ]
+          }
+        },
+        {
+          "id": "wedding",
+          "label": "Wedding",
+          "emoji": "💒",
+          "templates": {
+            "formal": [
+              "Heartfelt congratulations on your wedding, {name}. Wishing you both a lifetime of love, understanding, and shared joy. 💒✨",
+              "On this beautiful occasion, I extend my warmest wishes to you, {name}. May your marriage be a journey of endless happiness and togetherness. 💍🌹",
+              "Congratulations on your union, {name}. May your bond grow stronger with each passing day, and may your home be filled with love and laughter. 💒🙏",
+              "Wishing you both a blessed and joyful married life, {name}. May this sacred bond bring you fulfillment in every way. 💍✨",
+              "As you begin this beautiful chapter together, {name}, I wish you unwavering love, mutual respect, and a lifetime of cherished memories. 💒💐"
+            ],
+            "casual": [
+              "Congrats on tying the knot {name}! So happy for you both — here's to a lifetime of love and adventures together 💍🎉",
+              "Wedding bells for {name}! This is amazing — wishing you two all the happiness in the world 💒❤️",
+              "Huge congrats {name}! You found your person and that's the best feeling ever. Enjoy every moment! 💍🥂",
+              "So thrilled for you {name}! Marriage is an incredible ride — buckle up and enjoy the journey together 💕🎊",
+              "Congratulations {name}! Two hearts, one journey. Wishing you both nothing but love and good times ahead 💍😊"
+            ],
+            "funny": [
+              "Congrats {name}! Marriage is basically a sleepover with your favorite person that never ends. Enjoy! 😂💍",
+              "You did it {name}! Now the real adventure begins — figuring out what's for dinner every single night forever 🤣💒",
+              "Congratulations {name}! Pro tip — happy wife, happy life. That's literally the entire manual 😂💍",
+              "Welcome to married life {name}! Where every argument ends with 'you were right' and every meal is a negotiation 🤣🥂",
+              "Huge congrats {name}! Remember — marriage is just texting each other 'what do you want to eat' until one of you dies 😂💕"
+            ]
+          }
+        },
+        {
+          "id": "anniversary",
+          "label": "Anniversary",
+          "emoji": "💕",
+          "templates": {
+            "formal": [
+              "Happy anniversary, {name}. Your enduring love and commitment are truly inspiring. Wishing you many more years of joy together. 💕✨",
+              "Warmest wishes on your anniversary, {name}. May your bond continue to flourish with each passing year, growing ever deeper and more meaningful. 💍🌹",
+              "Congratulations on another beautiful year together, {name}. Your partnership is a testament to love, patience, and devotion. 💕🙏",
+              "On this special anniversary, {name}, I celebrate the beautiful journey you have shared. May the years ahead be filled with even greater happiness. 💐✨",
+              "Happy anniversary, {name}. Your love story is one that inspires all who know you. Wishing you continued blessings and togetherness. 💕🌟"
+            ],
+            "casual": [
+              "Happy anniversary {name}! Another year of love, laughs, and making it work through it all 💕🎉",
+              "Cheers to you {name}! Another year stronger, another year happier. You two are goals 💍😊",
+              "Happy anniversary {name}! Still going strong and still adorable together. Love to see it ❤️🥂",
+              "Another year in the books {name}! Here's to many more filled with love and good times 💕🎊",
+              "Happy anniversary {name}! You make this love thing look easy. Wishing you the best always ❤️✨"
+            ],
+            "funny": [
+              "Happy anniversary {name}! Another year of tolerating each other — that's true love right there 😂💕",
+              "Congrats {name}! Surviving another year together is basically an extreme sport at this point 🤣💍",
+              "Happy anniversary {name}! The secret to a long marriage? Selective hearing and a short memory 😂❤️",
+              "Another year {name}! At this point you deserve a trophy, not just a card 🏆😂💕",
+              "Happy anniversary {name}! Love is patient, love is kind, love is pretending to listen while scrolling your phone 🤣💍"
+            ]
+          }
+        },
+        {
+          "id": "baby-born",
+          "label": "Baby Born",
+          "emoji": "👶",
+          "templates": {
+            "formal": [
+              "Heartfelt congratulations on the arrival of your little one, {name}. Wishing your family abundant love, health, and happiness. 👶✨",
+              "What wonderful news, {name}. The birth of your child is a blessing beyond measure. May your family be filled with joy and good health. 👶🙏",
+              "Congratulations on this beautiful new chapter, {name}. May your little one grow up surrounded by love, laughter, and endless possibilities. 👶🌟",
+              "Warmest wishes on the new addition to your family, {name}. Parenthood is the most rewarding journey — may you cherish every moment. 👶💐",
+              "Congratulations, {name}. A new life is the greatest gift. Wishing you and your growing family health, happiness, and peaceful nights. 👶✨"
+            ],
+            "casual": [
+              "Congrats on the baby {name}! The little one is so lucky to have you. Enjoy every tiny moment 👶❤️",
+              "A baby! So happy for you {name}! Get ready for the best adventure of your life 👶🎉",
+              "Welcome to the parents club {name}! It's messy, sleepless, and absolutely wonderful 👶😊",
+              "The best news ever {name}! Congrats on your little bundle of joy. Sending so much love your way 👶💕",
+              "Ahh a baby {name}! Congrats! Pro tip — sleep now while you still can 😄👶❤️"
+            ],
+            "funny": [
+              "Congrats {name}! Say goodbye to sleep, money, and personal space — but hello to the best thing ever 😂👶",
+              "A baby! Congrats {name}! Your phone storage is about to be 99% baby photos and you won't even be mad about it 🤣👶",
+              "Welcome to parenthood {name}! Where every day is a surprise and coffee becomes a food group 😂☕👶",
+              "Congrats {name}! The baby is adorable — and now begins your 18-year unpaid internship 🤣👶",
+              "A new baby {name}! Get ready — your heart just doubled in size and your free time just disappeared 😂👶❤️"
+            ]
+          }
+        },
+        {
+          "id": "graduation",
+          "label": "Graduation",
+          "emoji": "🎓",
+          "templates": {
+            "formal": [
+              "Congratulations on your graduation, {name}. Your hard work and dedication have led to this well-deserved achievement. Wishing you a bright future ahead. 🎓✨",
+              "What a proud moment, {name}. Your academic accomplishment is a testament to your perseverance and talent. May your career be equally distinguished. 🎓🌟",
+              "Warmest congratulations on this milestone, {name}. Your commitment to excellence has brought you here, and the best is yet to come. 🎓🙏",
+              "Congratulations, {name}. Graduation marks the end of one chapter and the beginning of an even more exciting one. Wishing you every success. 🎓💐",
+              "Well done, {name}. Your graduation is a reflection of years of effort and determination. The world is ready for you. 🎓✨"
+            ],
+            "casual": [
+              "You did it {name}! Congrats on graduating — all that hard work finally paid off! 🎓🎉",
+              "Congrats grad {name}! The world better watch out because you're ready to take it on 🎓💪",
+              "So proud of you {name}! Graduation is just the beginning — the best is yet to come 🎓😊",
+              "Hats off to you {name}! Literally 🎓 Congrats on this huge achievement!",
+              "You made it {name}! No more exams, no more assignments — just pure freedom and opportunity ahead 🎓🎊"
+            ],
+            "funny": [
+              "Congrats {name}! You're now educated enough to know how little you actually know 😂🎓",
+              "You graduated {name}! The real test begins now — it's called adulting and there's no study guide 🤣🎓",
+              "Congrats {name}! You've officially graduated from 'I'll do it tomorrow' to 'I should've done it yesterday' 😂🎓",
+              "Well done {name}! Your degree is basically a very expensive receipt for years of stress and instant noodles 🤣🎓🍜",
+              "Congrats grad {name}! Now you can add 'professional overthinker with a degree' to your bio 😂🎓"
+            ]
+          }
+        },
+        {
+          "id": "retirement",
+          "label": "Retirement",
+          "emoji": "🏖️",
+          "templates": {
+            "formal": [
+              "Congratulations on your retirement, {name}. Your years of service and dedication have left a lasting impact. Wishing you a fulfilling and joyful new chapter. 🏖️✨",
+              "Happy retirement, {name}. You have earned this wonderful milestone through years of hard work and commitment. May your days ahead be filled with peace and purpose. 🏖️🙏",
+              "Warmest wishes on your retirement, {name}. Your contributions will be remembered and appreciated. Enjoy this well-deserved time of rest and exploration. 🌅✨",
+              "Congratulations on retiring, {name}. May this new phase bring you the freedom to pursue your passions and spend quality time with loved ones. 🏖️🌟",
+              "Happy retirement, {name}. Your professional journey has been remarkable. Here is to the next adventure being even more rewarding. 🏖️💐"
+            ],
+            "casual": [
+              "Happy retirement {name}! No more alarms, no more meetings — just you and your freedom 🏖️🎉",
+              "Congrats on retiring {name}! You've earned every lazy morning and spontaneous adventure that's coming your way 🌅😊",
+              "You're free {name}! Retirement looks so good on you. Enjoy every single second of it 🏖️❤️",
+              "Happy retirement {name}! Time to do all the things you've been putting off for years 🎊🌴",
+              "Cheers to you {name}! Retirement isn't the end — it's the beginning of the fun part 🏖️🥂"
+            ],
+            "funny": [
+              "Happy retirement {name}! Your alarm clock just filed for unemployment 😂🏖️",
+              "Congrats {name}! You're now a full-time professional at doing absolutely nothing. Dream job achieved 🤣🌴",
+              "Happy retirement {name}! Monday mornings will never hurt you again. You're free 😂🏖️",
+              "Welcome to retirement {name}! Where every day is Saturday and naps are a legitimate activity 🤣😴",
+              "Congrats {name}! You survived decades of work. Now the hardest decision is what to watch on Netflix 😂🏖️📺"
+            ]
+          }
+        },
+        {
+          "id": "housewarming",
+          "label": "Housewarming",
+          "emoji": "🏠",
+          "templates": {
+            "formal": [
+              "Congratulations on your new home, {name}. May it be a place of warmth, love, and wonderful memories for years to come. 🏠✨",
+              "Warmest wishes on your new home, {name}. May every room be filled with laughter, every corner with comfort, and every day with happiness. 🏠🙏",
+              "Congratulations, {name}. A new home marks a beautiful new beginning. Wishing you peace, prosperity, and joy in your new space. 🏠🌟",
+              "Happy housewarming, {name}. May your new home be a sanctuary of love and a foundation for cherished memories. 🏠💐",
+              "Wishing you all the best in your new home, {name}. May it bring you comfort and happiness in abundance. 🏠✨"
+            ],
+            "casual": [
+              "Congrats on the new place {name}! So exciting — can't wait to see what you do with it 🏠🎉",
+              "New home {name}! That's huge — wishing you the happiest of times in your new space 🏠❤️",
+              "Happy housewarming {name}! Home is where the heart is and yours is going to be amazing 🏠😊",
+              "You got the keys {name}! Time to fill that new place with love, laughter, and way too much furniture 🏠🎊",
+              "New home alert {name}! Congrats — this is such a big milestone. Enjoy every moment of making it yours 🏠💕"
+            ],
+            "funny": [
+              "Congrats on the new house {name}! Now begins your lifelong relationship with a mortgage 😂🏠",
+              "Happy housewarming {name}! Your bank account is crying but your living room looks amazing 🤣🏠",
+              "New home {name}! Congrats on upgrading from 'I'll move one day' to 'why is everything so expensive' 😂🏠",
+              "Congrats {name}! Pro tip — every problem in a new house can be solved with a trip to IKEA 🤣🏠🔧",
+              "Happy housewarming {name}! Welcome to homeownership — where something is always broken and you pretend it's fine 😂🏠"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "festivals-india",
+      "label": "Festivals — India",
+      "occasions": [
+        {
+          "id": "diwali",
+          "label": "Diwali",
+          "emoji": "🪔",
+          "templates": {
+            "formal": [
+              "Wishing you a very Happy Diwali, {name}. May the festival of lights illuminate your life with prosperity, happiness, and good health. 🪔✨",
+              "Happy Diwali, {name}. May the glow of diyas and the warmth of celebration bring peace and abundance to your home and family. 🪔🙏",
+              "On this auspicious occasion of Diwali, {name}, I wish you success in all your endeavors and light in every corner of your life. 🪔🌟",
+              "Shubh Diwali, {name}. May Goddess Lakshmi bless your home with wealth and may your year ahead be as bright as the festival itself. 🪔💐",
+              "Happy Diwali, {name}. Wishing you and your family a celebration filled with love, joy, and the sweetness of togetherness. 🪔✨"
+            ],
+            "casual": [
+              "Happy Diwali {name}! Hope your day is full of lights, sweets, and good times with family 🪔🎉",
+              "Diwali vibes {name}! Wishing you a day full of sparklers, mithai, and all the happiness 🪔😊",
+              "Happy Diwali {name}! May your life be as bright and colorful as the festival 🪔❤️🎆",
+              "Shubh Diwali {name}! Time for diyas, sweets, and creating awesome memories with loved ones 🪔🍬",
+              "Happy Diwali {name}! Eat all the mithai, light all the diyas, and enjoy every moment of it 🪔🎊"
+            ],
+            "funny": [
+              "Happy Diwali {name}! May your bonus be bigger than your firecracker budget this year 😂🪔💰",
+              "Happy Diwali {name}! Time to eat so many sweets that your dentist books a vacation 🤣🪔🍬",
+              "Shubh Diwali {name}! May your relatives ask about your achievements and not your marriage this year 😂🪔",
+              "Happy Diwali {name}! Pro tip — the real festival begins when you find parking at the market 🤣🪔🚗",
+              "Happy Diwali {name}! May your WiFi be strong, your sweets be fresh, and your neighbors' crackers be quiet 😂🪔"
+            ]
+          }
+        },
+        {
+          "id": "holi",
+          "label": "Holi",
+          "emoji": "🎨",
+          "templates": {
+            "formal": [
+              "Wishing you a vibrant and joyous Holi, {name}. May the colors of this festival bring happiness and positivity into your life. 🎨✨",
+              "Happy Holi, {name}. May the spirit of the festival wash away all worries and paint your days with love and laughter. 🎨🙏",
+              "On this festival of colors, {name}, I wish you a life filled with brightness, warmth, and beautiful moments. 🎨🌟",
+              "Happy Holi, {name}. May every color that touches you bring a new reason to celebrate and a new blessing to cherish. 🎨💐",
+              "Wishing you a blessed Holi, {name}. May this festival strengthen bonds of love and bring peace to your heart. 🎨✨"
+            ],
+            "casual": [
+              "Happy Holi {name}! Get ready for colors, water balloons, and way too much thandai 🎨🎉💦",
+              "Holi hai {name}! Time to get colorful and make some crazy memories 🎨😊🌈",
+              "Happy Holi {name}! Wishing you a day full of colors, laughter, and gujiya 🎨❤️",
+              "Let the colors fly {name}! Happy Holi — enjoy every splashy moment 🎨💦🎊",
+              "Happy Holi {name}! May your day be as colorful and fun as you are 🎨🥳"
+            ],
+            "funny": [
+              "Happy Holi {name}! May your white clothes survive the day. They probably won't though 😂🎨",
+              "Happy Holi {name}! That color on your face? It'll come off in about 3-5 business days 🤣🎨",
+              "Holi hai {name}! Time to ruin all your clothes and blame it on tradition 😂🎨👕",
+              "Happy Holi {name}! Good luck explaining to your boss why your face is still purple on Monday 🤣🎨",
+              "Happy Holi {name}! The only day when throwing water at strangers is not just legal but encouraged 😂💦🎨"
+            ]
+          }
+        },
+        {
+          "id": "eid",
+          "label": "Eid",
+          "emoji": "🌙",
+          "templates": {
+            "formal": [
+              "Eid Mubarak, {name}. May this blessed occasion bring you peace, joy, and prosperity. Wishing you and your family a beautiful celebration. 🌙✨",
+              "Wishing you a joyous Eid, {name}. May Allah's blessings fill your life with happiness, good health, and success. 🌙🙏",
+              "Eid Mubarak, {name}. May this holy festival strengthen your faith and fill your home with love and gratitude. 🌙🌟",
+              "On this blessed occasion of Eid, {name}, I pray for your well-being and happiness. May your sacrifices be rewarded abundantly. 🌙💐",
+              "Eid Mubarak, {name}. Wishing you a celebration filled with love, family, and countless blessings. 🌙✨"
+            ],
+            "casual": [
+              "Eid Mubarak {name}! Hope your day is filled with amazing food, family, and lots of Eidi 🌙🎉",
+              "Happy Eid {name}! Time for biryani, family, and the best celebration ever 🌙😊🍽️",
+              "Eid Mubarak {name}! Wishing you a day full of joy, love, and way too much food 🌙❤️",
+              "Happy Eid {name}! May your plate be full and your heart be even fuller 🌙🎊",
+              "Eid Mubarak {name}! Enjoy every moment with your loved ones today 🌙💕"
+            ],
+            "funny": [
+              "Eid Mubarak {name}! May your biryani be perfect and your Eidi be generous 😂🌙🍚",
+              "Happy Eid {name}! Time to eat like there's no tomorrow and then take a 4-hour nap 🤣🌙",
+              "Eid Mubarak {name}! May your aunties' questions be limited to 'have you eaten?' and nothing else 😂🌙",
+              "Happy Eid {name}! The Eidi better be adjusted for inflation this year 🤣🌙💰",
+              "Eid Mubarak {name}! May your outfit be fresh, your food be delicious, and your cousins behave themselves 😂🌙"
+            ]
+          }
+        },
+        {
+          "id": "raksha-bandhan",
+          "label": "Raksha Bandhan",
+          "emoji": "🪢",
+          "templates": {
+            "formal": [
+              "Wishing you a blessed Raksha Bandhan, {name}. May the sacred bond between siblings grow stronger with each passing year. 🪢✨",
+              "Happy Raksha Bandhan, {name}. This beautiful festival celebrates a bond that is truly one of life's greatest treasures. 🪢🙏",
+              "On this Raksha Bandhan, {name}, I wish you love, protection, and the warmth of family. May your bond be unbreakable. 🪢🌟",
+              "Happy Raksha Bandhan, {name}. May the thread of love and protection bind your family together in joy and harmony. 🪢💐",
+              "Wishing you a wonderful Raksha Bandhan, {name}. May this festival fill your heart with gratitude for the gift of siblings. 🪢✨"
+            ],
+            "casual": [
+              "Happy Raksha Bandhan {name}! Time to tie the rakhi and demand your gifts 🪢🎉😄",
+              "Raksha Bandhan vibes {name}! Sending love and the strongest rakhi energy your way 🪢❤️",
+              "Happy Rakhi {name}! Here's to the best siblings in the world — messy, loud, and irreplaceable 🪢😊",
+              "Raksha Bandhan {name}! Sweets, rakhis, and sibling drama — wouldn't have it any other way 🪢🎊",
+              "Happy Rakhi {name}! No matter the distance, the bond stays just as strong 🪢💕"
+            ],
+            "funny": [
+              "Happy Raksha Bandhan {name}! Time for siblings to pretend they like each other for one whole day 😂🪢",
+              "Happy Rakhi {name}! The annual tradition of overpriced gifts and emotional blackmail begins now 🤣🪢🎁",
+              "Raksha Bandhan {name}! My wrist is ready, your wallet better be too 😂🪢💰",
+              "Happy Rakhi {name}! The one day you can't say no to your sibling without looking like a villain 🤣🪢",
+              "Happy Raksha Bandhan {name}! Rakhi is basically a protection racket run by siblings and it's beautiful 😂🪢"
+            ]
+          }
+        },
+        {
+          "id": "christmas",
+          "label": "Christmas",
+          "emoji": "🎄",
+          "templates": {
+            "formal": [
+              "Merry Christmas, {name}. May this joyous season bring you peace, love, and the warmth of cherished moments with family. 🎄✨",
+              "Wishing you a blessed Christmas, {name}. May the spirit of the season fill your heart with hope and your home with happiness. 🎄🙏",
+              "Merry Christmas, {name}. May the light of this holy season guide your path and bring you abundant blessings in the year ahead. 🎄🌟",
+              "Season's greetings, {name}. Wishing you a Christmas filled with love, laughter, and the company of those you hold dear. 🎄💐",
+              "Merry Christmas, {name}. May the joy of this celebration stay with you throughout the coming year. 🎄✨"
+            ],
+            "casual": [
+              "Merry Christmas {name}! Hope your day is filled with presents, food, and all the festive feels 🎄🎉🎁",
+              "Happy Christmas {name}! Time for cozy vibes, great food, and too many holiday movies 🎄😊",
+              "Merry Christmas {name}! Wishing you the warmest, happiest holiday season ever ❤️🎄",
+              "It's Christmas {name}! Enjoy every moment of the magic — you deserve the best 🎄🎊",
+              "Merry Christmas {name}! Hope Santa brings you everything on your list and more 🎄🎅💕"
+            ],
+            "funny": [
+              "Merry Christmas {name}! May your gifts be expensive and your in-laws be brief 😂🎄🎁",
+              "Happy Christmas {name}! The only time it's acceptable to gain 5 kilos in 3 days 🤣🎄🍗",
+              "Merry Christmas {name}! Santa saw your browser history — you're getting coal this year 😂🎄",
+              "Happy Christmas {name}! Remember — calories don't count during the holidays. That's science 🤣🎄🍪",
+              "Merry Christmas {name}! May your WiFi be fast, your turkey be perfect, and your family drama be minimal 😂🎄"
+            ]
+          }
+        },
+        {
+          "id": "new-year",
+          "label": "New Year",
+          "emoji": "🎆",
+          "templates": {
+            "formal": [
+              "Wishing you a very Happy New Year, {name}. May the coming year bring you success, good health, and fulfillment in all your endeavors. 🎆✨",
+              "Happy New Year, {name}. As a new chapter begins, may it be filled with opportunities, achievements, and moments of genuine joy. 🎆🙏",
+              "A prosperous New Year to you, {name}. May this year be your finest yet, marked by growth, happiness, and meaningful connections. 🎆🌟",
+              "Happy New Year, {name}. Wishing you a year of clarity, purpose, and unwavering success. May your dreams find their wings. 🎆💐",
+              "As the new year dawns, {name}, I wish you peace, prosperity, and the courage to pursue everything your heart desires. 🎆✨"
+            ],
+            "casual": [
+              "Happy New Year {name}! New year, new adventures, same amazing you 🎆🎉",
+              "HNY {name}! Here's to an incredible year ahead — make it one to remember 🎆😊",
+              "Happy New Year {name}! Cheers to fresh starts, big goals, and all the good stuff coming your way 🎆🥂",
+              "New year {name}! Time to crush those goals and make this the best one yet 🎆💪",
+              "Happy New Year {name}! Wishing you 365 days of happiness, love, and good vibes 🎆❤️"
+            ],
+            "funny": [
+              "Happy New Year {name}! May your resolutions last at least until January 15th this time 😂🎆",
+              "HNY {name}! New year, same you — but let's pretend we're going to change everything 🤣🎆",
+              "Happy New Year {name}! The gym membership you'll buy and never use starts now 😂🎆🏋️",
+              "New year {name}! Time to write ambitious goals in a journal you'll forget about by February 🤣🎆📓",
+              "Happy New Year {name}! May your bank account recover from December before March hits 😂🎆💸"
+            ]
+          }
+        },
+        {
+          "id": "ganesh-chaturthi",
+          "label": "Ganesh Chaturthi",
+          "emoji": "🙏",
+          "templates": {
+            "formal": [
+              "Wishing you a blessed Ganesh Chaturthi, {name}. May Lord Ganesha remove all obstacles and bring prosperity to your life. 🙏✨",
+              "Happy Ganesh Chaturthi, {name}. May the Vighnaharta bless you with wisdom, success, and happiness in all your pursuits. 🙏🌟",
+              "Ganpati Bappa Morya, {name}! May this auspicious festival bring divine blessings and new beginnings into your life. 🙏💐",
+              "Wishing you a joyous Ganesh Chaturthi, {name}. May Lord Ganesha's grace guide you through every challenge with strength and clarity. 🙏✨",
+              "Happy Ganesh Chaturthi, {name}. May the festival fill your home with positivity and your heart with devotion. 🙏🌺"
+            ],
+            "casual": [
+              "Ganpati Bappa Morya {name}! Wishing you the best modaks and the best vibes this festival 🙏🎉",
+              "Happy Ganesh Chaturthi {name}! Time for celebrations, modaks, and amazing energy 🙏😊",
+              "Ganpati Bappa {name}! May Bappa bless you with everything good this season 🙏❤️",
+              "Happy Ganesh Chaturthi {name}! Enjoy the festivities and eat extra modaks for me 🙏🎊",
+              "Ganpati Bappa Morya {name}! Sending all the festive love your way 🙏💕"
+            ],
+            "funny": [
+              "Ganpati Bappa Morya {name}! May your modak supply never run out — that's the real blessing 😂🙏",
+              "Happy Ganesh Chaturthi {name}! Bappa removes obstacles — maybe He can fix your WiFi too 🤣🙏📶",
+              "Ganpati Bappa {name}! Time to eat modaks for breakfast, lunch, and dinner. It's tradition 😂🙏",
+              "Happy Ganesh Chaturthi {name}! May Bappa grant you the strength to survive visarjan traffic 🤣🙏🚗",
+              "Ganpati Bappa Morya {name}! The only time traffic jams are actually fun 😂🙏🎶"
+            ]
+          }
+        },
+        {
+          "id": "navratri",
+          "label": "Navratri",
+          "emoji": "🔱",
+          "templates": {
+            "formal": [
+              "Wishing you a blessed Navratri, {name}. May the nine nights of devotion bring divine energy, strength, and peace into your life. 🔱✨",
+              "Happy Navratri, {name}. May Maa Durga's blessings guide you towards success, happiness, and spiritual fulfillment. 🔱🙏",
+              "Shubh Navratri, {name}. May the festival fill your days with devotion and your nights with celebration and joy. 🔱🌟",
+              "Wishing you a joyous Navratri, {name}. May the divine energy of the festival empower you to overcome every challenge. 🔱💐",
+              "Happy Navratri, {name}. May each of the nine nights bring a new blessing and each day a new reason to celebrate. 🔱✨"
+            ],
+            "casual": [
+              "Happy Navratri {name}! Nine nights of garba, dandiya, and the best energy ever 🔱🎉💃",
+              "Navratri vibes {name}! Time to dance, celebrate, and soak in the festive spirit 🔱😊",
+              "Happy Navratri {name}! Wishing you amazing garba nights and great times with friends 🔱❤️",
+              "Navratri {name}! Let's go — dandiya ready, outfit sorted, energy at 100% 🔱🎊",
+              "Happy Navratri {name}! May your garba moves be smooth and your energy be endless 🔱💕💃"
+            ],
+            "funny": [
+              "Happy Navratri {name}! Time to garba like nobody's watching — even though everyone is 😂🔱💃",
+              "Navratri {name}! That moment when your dandiya hits someone and you both pretend it didn't happen 🤣🔱",
+              "Happy Navratri {name}! Nine nights of dancing means nine days of leg pain. Worth it 😂🔱🦵",
+              "Navratri vibes {name}! The only time waking up at 4 AM for aarti feels totally worth it 🤣🔱",
+              "Happy Navratri {name}! May your outfit be the best one there and your garba stamina last all nine nights 😂🔱"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "festivals-global",
+      "label": "Festivals — Global",
+      "occasions": [
+        {
+          "id": "ramadan",
+          "label": "Ramadan",
+          "emoji": "🌙",
+          "templates": {
+            "formal": [
+              "Ramadan Mubarak, {name}. May this holy month bring you spiritual peace, divine blessings, and renewed faith. 🌙✨",
+              "Wishing you a blessed Ramadan, {name}. May your prayers be answered and your fasts be accepted with grace. 🌙🙏",
+              "Ramadan Kareem, {name}. May this sacred month illuminate your path with wisdom, patience, and gratitude. 🌙🌟",
+              "A blessed Ramadan to you, {name}. May this month of reflection and devotion bring you closer to everything that matters most. 🌙💐",
+              "Ramadan Mubarak, {name}. Wishing you a month of mercy, forgiveness, and abundant blessings for you and your family. 🌙✨"
+            ],
+            "casual": [
+              "Ramadan Mubarak {name}! Wishing you a peaceful and blessed month ahead 🌙🎉",
+              "Happy Ramadan {name}! May your fasts be easy and your iftars be amazing 🌙😊🍽️",
+              "Ramadan Kareem {name}! Sending you all the good vibes for this beautiful month 🌙❤️",
+              "Ramadan Mubarak {name}! Time for reflection, gratitude, and incredible iftar spreads 🌙🎊",
+              "Blessed Ramadan {name}! Hope this month brings you all the peace and joy 🌙💕"
+            ],
+            "funny": [
+              "Ramadan Mubarak {name}! The month where your patience is tested more than your hunger 😂🌙",
+              "Happy Ramadan {name}! That 3 AM suhoor alarm hits different when you're in deep sleep 🤣🌙⏰",
+              "Ramadan Kareem {name}! The countdown to iftar starts approximately 5 minutes after suhoor 😂🌙",
+              "Ramadan Mubarak {name}! May your iftar be worth every second of the wait 🤣🌙🍽️",
+              "Happy Ramadan {name}! The real struggle is pretending you're not thinking about food all day 😂🌙"
+            ]
+          }
+        },
+        {
+          "id": "easter",
+          "label": "Easter",
+          "emoji": "🐣",
+          "templates": {
+            "formal": [
+              "Wishing you a blessed Easter, {name}. May this day of renewal bring hope, joy, and peace to you and your loved ones. 🐣✨",
+              "Happy Easter, {name}. May the promise of this holy day fill your heart with faith and your life with abundant blessings. 🐣🙏",
+              "A joyous Easter to you, {name}. May the spirit of resurrection inspire new beginnings and renewed purpose in your life. 🐣🌟",
+              "Wishing you a wonderful Easter, {name}. May this celebration remind us of the beauty of hope, love, and redemption. 🐣💐",
+              "Happy Easter, {name}. May this sacred day bring you the gift of peace and the warmth of family and community. 🐣✨"
+            ],
+            "casual": [
+              "Happy Easter {name}! Hope your day is filled with chocolate eggs, sunshine, and good company 🐣🎉🍫",
+              "Easter vibes {name}! Wishing you a beautiful day of celebration and joy 🐣😊",
+              "Happy Easter {name}! Time for egg hunts, family time, and eating way too much chocolate 🐣❤️",
+              "Easter Sunday {name}! Hope it's the sweetest day ever — literally and figuratively 🐣🎊",
+              "Happy Easter {name}! May your basket be full and your heart be even fuller 🐣💕"
+            ],
+            "funny": [
+              "Happy Easter {name}! The one day when hiding eggs from children is considered wholesome 😂🐣",
+              "Happy Easter {name}! May your chocolate bunny be solid, not hollow. We've all been betrayed before 🤣🐣🍫",
+              "Easter {name}! Time to eat chocolate for breakfast and call it a religious tradition 😂🐣",
+              "Happy Easter {name}! The egg hunt is basically a tutorial for adulting — searching for things that were right in front of you 🤣🐣",
+              "Happy Easter {name}! May you find all the eggs before your siblings do. This is war 😂🐣🥚"
+            ]
+          }
+        },
+        {
+          "id": "thanksgiving",
+          "label": "Thanksgiving",
+          "emoji": "🦃",
+          "templates": {
+            "formal": [
+              "Wishing you a Happy Thanksgiving, {name}. May this day of gratitude remind us of the blessings we share and the bonds that unite us. 🦃✨",
+              "Happy Thanksgiving, {name}. May your table be full, your heart be grateful, and your home be filled with warmth and love. 🦃🙏",
+              "On this Thanksgiving, {name}, I wish you a day of reflection, appreciation, and the joy of being surrounded by loved ones. 🦃🌟",
+              "Wishing you a blessed Thanksgiving, {name}. May gratitude fill your spirit and may the coming season bring you abundant happiness. 🦃💐",
+              "Happy Thanksgiving, {name}. In a world of abundance, may we always remember to be thankful for the simplest blessings. 🦃✨"
+            ],
+            "casual": [
+              "Happy Thanksgiving {name}! Grateful for amazing people like you. Enjoy the feast 🦃🎉",
+              "Thanksgiving vibes {name}! Time for turkey, family, and being thankful for the good stuff 🦃😊",
+              "Happy Thanksgiving {name}! Eat well, relax, and count your blessings — you've got plenty 🦃❤️",
+              "Turkey day {name}! Wishing you the coziest Thanksgiving filled with love and good food 🦃🎊",
+              "Happy Thanksgiving {name}! Grateful for you and sending all the warmest wishes your way 🦃💕"
+            ],
+            "funny": [
+              "Happy Thanksgiving {name}! The only day where eating until you can't move is the actual plan 😂🦃",
+              "Thanksgiving {name}! Time to be grateful and then immediately fight over Black Friday deals 🤣🦃🛒",
+              "Happy Thanksgiving {name}! May your turkey be moist and your family's political opinions be silent 😂🦃",
+              "Thanksgiving {name}! Stretchy pants are not optional — they are mandatory 🤣🦃",
+              "Happy Thanksgiving {name}! The real question isn't what you're thankful for — it's whether you're team pumpkin pie or pecan 😂🦃🥧"
+            ]
+          }
+        },
+        {
+          "id": "valentines-day",
+          "label": "Valentine's Day",
+          "emoji": "💝",
+          "templates": {
+            "formal": [
+              "Wishing you a beautiful Valentine's Day, {name}. May this day celebrate the love and warmth you bring to everyone around you. 💝✨",
+              "Happy Valentine's Day, {name}. Love is the greatest gift we share, and today we honor it in all its beautiful forms. 💝🌹",
+              "On this Valentine's Day, {name}, I wish you a heart full of love and a life enriched by meaningful connections. 💝🙏",
+              "Wishing you love and happiness on this Valentine's Day, {name}. May every day bring you closer to those who matter most. 💝💐",
+              "Happy Valentine's Day, {name}. May the love you give return to you tenfold, today and always. 💝✨"
+            ],
+            "casual": [
+              "Happy Valentine's Day {name}! Sending love and good vibes your way today 💝🎉",
+              "Valentine's Day {name}! Whether single or taken — you're amazing and that's what matters 💝😊",
+              "Happy V-Day {name}! Love is in the air — and so is the smell of chocolate 💝🍫❤️",
+              "Happy Valentine's Day {name}! You deserve all the love and happiness in the world 💝🎊",
+              "Valentine's vibes {name}! Cheers to love in all its wonderful forms 💝💕"
+            ],
+            "funny": [
+              "Happy Valentine's Day {name}! If nobody got you anything, remember — self-love is also love. Buy yourself chocolate 😂💝🍫",
+              "Valentine's Day {name}! The one day restaurants charge double for the same pasta 🤣💝🍝",
+              "Happy V-Day {name}! Roses are red, violets are blue, this Hallmark holiday is expensive, but here's a message for you 😂💝",
+              "Happy Valentine's {name}! Single? Think of all the money you're saving. Taken? Think of all the money you're spending 🤣💝",
+              "Valentine's Day {name}! May your love be real and your flowers not be from the gas station 😂💝🌹"
+            ]
+          }
+        },
+        {
+          "id": "mothers-day",
+          "label": "Mother's Day",
+          "emoji": "👩‍👧",
+          "templates": {
+            "formal": [
+              "Happy Mother's Day, {name}. Your love, sacrifice, and strength are a gift that words can barely capture. Wishing you a day as beautiful as you are. 👩‍👧✨",
+              "Wishing you the happiest Mother's Day, {name}. A mother's love is the foundation upon which everything good is built. Thank you for everything. 👩‍👧🙏",
+              "On this Mother's Day, {name}, I celebrate you and all the countless ways you have made life richer and more meaningful. 👩‍👧🌟",
+              "Happy Mother's Day, {name}. Your selfless devotion and unwavering support inspire everyone fortunate enough to know you. 👩‍👧💐",
+              "Wishing you love and gratitude on this Mother's Day, {name}. May you always know how deeply you are appreciated. 👩‍👧✨"
+            ],
+            "casual": [
+              "Happy Mother's Day {name}! You're the best — today and every day ❤️👩‍👧🎉",
+              "Happy Mother's Day {name}! Thanks for everything — the love, the patience, the endless support 👩‍👧😊",
+              "To the most amazing mom {name}! Hope you get spoiled rotten today — you deserve it 👩‍👧💕",
+              "Happy Mother's Day {name}! No one does it better than you. Enjoy your special day 👩‍👧🎊",
+              "Mother's Day {name}! Sending all my love to the person who made me who I am today ❤️👩‍👧"
+            ],
+            "funny": [
+              "Happy Mother's Day {name}! Thanks for not selling me when I was a teenager. That took real restraint 😂👩‍👧",
+              "Happy Mother's Day {name}! You've been Googling 'how to raise kids' since day one and still nailed it 🤣👩‍👧",
+              "Mother's Day {name}! The one day we pretend breakfast in bed makes up for the other 364 days 😂👩‍👧🍳",
+              "Happy Mother's Day {name}! You deserve a trophy, a vacation, and at least 12 hours of uninterrupted silence 🤣👩‍👧🏆",
+              "Happy Mother's Day {name}! Thanks for always answering my 'is this normal?' texts without judgment 😂👩‍👧📱"
+            ]
+          }
+        },
+        {
+          "id": "fathers-day",
+          "label": "Father's Day",
+          "emoji": "👨‍👧",
+          "templates": {
+            "formal": [
+              "Happy Father's Day, {name}. Your guidance, strength, and love have been the pillars of our family. Wishing you a day of well-deserved appreciation. 👨‍👧✨",
+              "Wishing you the happiest Father's Day, {name}. A father's wisdom and protection shape lives in ways that last forever. Thank you. 👨‍👧🙏",
+              "On this Father's Day, {name}, I honor the countless sacrifices you have made and the boundless love you have given. 👨‍👧🌟",
+              "Happy Father's Day, {name}. Your dedication and hard work provide the foundation for everything we cherish. You are truly appreciated. 👨‍👧💐",
+              "Wishing you love and gratitude today, {name}. May this Father's Day remind you of how profoundly you are valued. 👨‍👧✨"
+            ],
+            "casual": [
+              "Happy Father's Day {name}! You're the real MVP — thanks for everything you do ❤️👨‍👧🎉",
+              "Father's Day {name}! No one tells better dad jokes or gives better advice. Love you 👨‍👧😊",
+              "Happy Father's Day {name}! Thanks for always being there — through the big stuff and the small stuff 👨‍👧💕",
+              "To the best dad {name}! Hope your day is full of relaxation and everything you enjoy 👨‍👧🎊",
+              "Happy Father's Day {name}! You make everything better just by being you ❤️👨‍👧"
+            ],
+            "funny": [
+              "Happy Father's Day {name}! Thanks for all the life advice I ignored and then realized you were right about 😂👨‍👧",
+              "Father's Day {name}! You've earned the right to nap on the couch without anyone bothering you. For one day at least 🤣👨‍👧😴",
+              "Happy Father's Day {name}! Your dad jokes are terrible and we wouldn't have it any other way 😂👨‍👧",
+              "Father's Day {name}! Thanks for pretending to know how to fix everything while secretly watching YouTube tutorials 🤣👨‍👧🔧",
+              "Happy Father's Day {name}! The thermostat is yours today. Do whatever you want with it 😂👨‍👧🌡️"
+            ]
+          }
+        },
+        {
+          "id": "chinese-new-year",
+          "label": "Chinese New Year",
+          "emoji": "🧧",
+          "templates": {
+            "formal": [
+              "Happy Chinese New Year, {name}. Wishing you prosperity, good health, and abundant fortune in the year ahead. Gong Xi Fa Cai! 🧧✨",
+              "Wishing you a prosperous Chinese New Year, {name}. May the new year bring you success in all your endeavors and joy in every season. 🧧🙏",
+              "Happy Lunar New Year, {name}. May the coming year be filled with blessings, harmony, and new opportunities. 🧧🌟",
+              "Gong Xi Fa Cai, {name}! May the new year bring you happiness, wealth, and the fulfillment of all your aspirations. 🧧💐",
+              "Wishing you a blessed Chinese New Year, {name}. May every day of the coming year bring you peace and good fortune. 🧧✨"
+            ],
+            "casual": [
+              "Happy Chinese New Year {name}! Wishing you the best year yet — full of luck and good fortune 🧧🎉",
+              "Gong Xi Fa Cai {name}! Time for reunion dinners, red envelopes, and a fresh start 🧧😊",
+              "Happy Lunar New Year {name}! May your year be as bright and exciting as the fireworks 🧧❤️🎆",
+              "Chinese New Year {name}! Wishing you health, wealth, and all the dumplings you can eat 🧧🎊🥟",
+              "Happy CNY {name}! New year, new luck, new adventures ahead 🧧💕"
+            ],
+            "funny": [
+              "Happy Chinese New Year {name}! May your ang pao be thick and your relatives' questions be few 😂🧧",
+              "Gong Xi Fa Cai {name}! Time to smile through every 'are you married yet?' question at dinner 🤣🧧",
+              "Happy CNY {name}! The only acceptable answer to 'how much do you earn?' today is 'enough for ang pao' 😂🧧💰",
+              "Chinese New Year {name}! May your reunion dinner be delicious and your mahjong hand be unbeatable 🤣🧧🀄",
+              "Happy Lunar New Year {name}! New year's resolution: collect more red packets than last year 😂🧧"
+            ]
+          }
+        },
+        {
+          "id": "halloween",
+          "label": "Halloween",
+          "emoji": "🎃",
+          "templates": {
+            "formal": [
+              "Wishing you a delightful Halloween, {name}. May the spirit of the season bring you fun, creativity, and memorable moments. 🎃✨",
+              "Happy Halloween, {name}. May this festive occasion fill your evening with joy, wonder, and just the right amount of spookiness. 🎃🌟",
+              "Wishing you a wonderful Halloween, {name}. May the magic of the season spark your imagination and brighten your celebrations. 🎃💐",
+              "Happy Halloween, {name}. May your evening be filled with great company, creative costumes, and unforgettable memories. 🎃✨",
+              "A fantastic Halloween to you, {name}. May this celebration bring lightness and laughter to your day. 🎃🙏"
+            ],
+            "casual": [
+              "Happy Halloween {name}! Time to get spooky, eat candy, and have the best night ever 🎃🎉👻",
+              "Halloween vibes {name}! Hope your costume is amazing and your candy stash is massive 🎃😊🍬",
+              "Happy Halloween {name}! Wishing you all the tricks and treats tonight 🎃❤️",
+              "Boo {name}! Happy Halloween — make it a spooky and fun one 🎃🎊👻",
+              "Happy Halloween {name}! Eat candy, watch scary movies, and enjoy the vibes 🎃💕🍫"
+            ],
+            "funny": [
+              "Happy Halloween {name}! The scariest thing tonight won't be the costumes — it'll be the sugar crash tomorrow 😂🎃🍬",
+              "Halloween {name}! The one night where knocking on strangers' doors demanding food is perfectly normal 🤣🎃",
+              "Happy Halloween {name}! My costume this year? A functioning adult. It's terrifying 😂🎃",
+              "Boo {name}! Nothing is scarier than checking your bank account after Halloween shopping 🤣🎃💸",
+              "Happy Halloween {name}! Remember — the real monsters are the ones who give out raisins instead of candy 😂🎃"
+            ]
+          }
+        },
+        {
+          "id": "nowruz",
+          "label": "Nowruz",
+          "emoji": "🌿",
+          "templates": {
+            "formal": [
+              "Nowruz Mubarak, {name}. Wishing you a new year filled with joy, prosperity, and the renewal of hope. 🌿✨",
+              "Happy Nowruz, {name}. May the arrival of spring bring fresh energy, new blessings, and beautiful beginnings. 🌿🙏",
+              "Wishing you a prosperous Nowruz, {name}. May the Haft-Sin table bring all seven blessings into your life this year. 🌿🌟",
+              "Nowruz Mubarak, {name}. As nature renews itself, may your life be renewed with happiness, health, and success. 🌿💐",
+              "Happy Nowruz, {name}. May the spirit of this ancient celebration bring peace and abundance to you and your family. 🌿✨"
+            ],
+            "casual": [
+              "Nowruz Mubarak {name}! Happy Persian New Year — wishing you the freshest start ever 🌿🎉",
+              "Happy Nowruz {name}! Spring is here and so are the good vibes. Enjoy every moment 🌿😊",
+              "Nowruz Mubarak {name}! Time for new beginnings, great food, and family celebrations 🌿❤️",
+              "Happy Nowruz {name}! Wishing you a year as beautiful as the first day of spring 🌿🎊",
+              "Nowruz Mubarak {name}! Here's to a year full of growth, joy, and amazing memories 🌿💕"
+            ],
+            "funny": [
+              "Nowruz Mubarak {name}! Time to do spring cleaning and pretend you'll keep the house this clean all year 😂🌿",
+              "Happy Nowruz {name}! The Haft-Sin is set up, the goldfish is alive — so far so good 🤣🌿🐟",
+              "Nowruz Mubarak {name}! New year, new me — said everyone at the Haft-Sin table every single year 😂🌿",
+              "Happy Nowruz {name}! May your sabzeh grow tall and your relatives leave at a reasonable hour 🤣🌿",
+              "Nowruz Mubarak {name}! The real celebration starts when you jump over the fire and don't trip 😂🌿🔥"
+            ]
+          }
+        },
+        {
+          "id": "carnival",
+          "label": "Carnival",
+          "emoji": "🎭",
+          "templates": {
+            "formal": [
+              "Wishing you a spectacular Carnival, {name}. May the celebration bring you joy, energy, and unforgettable moments. 🎭✨",
+              "Happy Carnival, {name}. May the rhythm of the festivities fill your heart with happiness and your spirit with vibrance. 🎭🙏",
+              "Wishing you an amazing Carnival season, {name}. May the music, dance, and color lift your spirits and energize your soul. 🎭🌟",
+              "Happy Carnival, {name}. May this celebration of life and culture bring you wonderful memories and boundless joy. 🎭💐",
+              "A festive Carnival to you, {name}. May the spirit of celebration carry you through the season with happiness and gratitude. 🎭✨"
+            ],
+            "casual": [
+              "Happy Carnival {name}! Time to dance, celebrate, and make the most of every beat 🎭🎉💃",
+              "Carnival time {name}! Wishing you the most amazing party of the year 🎭😊",
+              "Happy Carnival {name}! Music, dance, costumes — let the celebration begin 🎭❤️🎶",
+              "It's Carnival {name}! Get out there and enjoy every incredible moment 🎭🎊",
+              "Happy Carnival {name}! May your energy be endless and your moves be legendary 🎭💕💃"
+            ],
+            "funny": [
+              "Happy Carnival {name}! The only time glitter in your hair for three weeks straight is totally acceptable 😂🎭✨",
+              "Carnival {name}! Time to dance like everyone is watching — because they absolutely are 🤣🎭💃",
+              "Happy Carnival {name}! May your costume be incredible and your voice survive the samba 😂🎭🎤",
+              "Carnival time {name}! Sleep is cancelled for the next 5 days. Good luck 🤣🎭",
+              "Happy Carnival {name}! The only week where waking up with confetti in your pocket is completely normal 😂🎭🎊"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "professional",
+      "label": "Professional",
+      "occasions": [
+        {
+          "id": "thank-you",
+          "label": "Thank You",
+          "emoji": "🙏",
+          "templates": {
+            "formal": [
+              "Thank you sincerely, {name}. Your generosity and thoughtfulness have made a meaningful difference. I am truly grateful. 🙏✨",
+              "I wish to express my heartfelt gratitude, {name}. Your support and kindness are deeply appreciated and will not be forgotten. 🙏🌟",
+              "Thank you, {name}. Your assistance has been invaluable, and I am grateful for the time and effort you have invested. 🙏💐",
+              "My sincere thanks, {name}. Your contribution has been instrumental and I am truly honored by your generosity. 🙏✨",
+              "Thank you, {name}. Please know that your kindness has touched my heart and I deeply appreciate everything you have done. 🙏🌹"
+            ],
+            "casual": [
+              "Thank you so much {name}! You're the best — seriously, I really appreciate it ❤️🙏",
+              "Big thanks {name}! You came through when it mattered and I won't forget it 🙏😊",
+              "Thanks a ton {name}! You made my day so much better. Truly grateful 🙏🎉",
+              "Thank you {name}! You didn't have to do that but you did and it means the world 🙏💕",
+              "Huge thanks {name}! People like you make everything better. Really appreciate you 🙏❤️"
+            ],
+            "funny": [
+              "Thank you {name}! I owe you one. Or ten. Let's not count 😂🙏",
+              "Thanks {name}! You're officially my favorite person today. Don't tell the others 🤣🙏",
+              "Thank you {name}! If gratitude burned calories, I'd be a supermodel right now 😂🙏",
+              "Thanks a million {name}! And yes, I do mean that literally. Send invoice 🤣🙏💰",
+              "Thank you {name}! You're a legend. I'm adding you to my hall of fame — which is just my WhatsApp favorites list 😂🙏"
+            ]
+          }
+        },
+        {
+          "id": "congratulations",
+          "label": "Congratulations",
+          "emoji": "🎊",
+          "templates": {
+            "formal": [
+              "Heartfelt congratulations, {name}. Your achievement is a testament to your dedication and talent. Wishing you continued success. 🎊✨",
+              "Congratulations, {name}. This accomplishment is well-deserved and reflects the hard work and passion you bring to everything you do. 🎊🌟",
+              "My warmest congratulations, {name}. You have set an inspiring example and I have no doubt greater achievements lie ahead. 🎊🙏",
+              "Congratulations on this milestone, {name}. Your perseverance has paid off and I am confident this is just the beginning. 🎊💐",
+              "Well-deserved congratulations, {name}. Your success is an inspiration to all who know you. May you continue to reach new heights. 🎊✨"
+            ],
+            "casual": [
+              "Congrats {name}! You absolutely crushed it — so proud of you 🎊🎉",
+              "Amazing news {name}! You deserve every bit of this. Huge congratulations 🎊😊",
+              "Congrats {name}! All that hard work finally paid off and it's beautiful to see 🎊❤️",
+              "Way to go {name}! This is just the beginning — bigger things are coming 🎊💪",
+              "Congratulations {name}! You did the thing and you did it brilliantly 🎊💕"
+            ],
+            "funny": [
+              "Congrats {name}! You made it look easy — which annoys the rest of us, but we're still proud 😂🎊",
+              "Congratulations {name}! Please don't forget us little people on your way to the top 🤣🎊",
+              "Congrats {name}! I'd say I'm not jealous but we both know that would be a lie 😂🎊",
+              "Way to go {name}! Achievement unlocked. Now go celebrate before the next challenge drops 🤣🎊🎮",
+              "Congrats {name}! At this rate you'll need a bigger shelf for all your trophies 😂🎊🏆"
+            ]
+          }
+        },
+        {
+          "id": "farewell",
+          "label": "Farewell",
+          "emoji": "👋",
+          "templates": {
+            "formal": [
+              "Farewell, {name}. Your presence and contributions will be deeply missed. Wishing you every success in your new endeavor. 👋✨",
+              "As you move on to new horizons, {name}, please know that your impact here has been significant and lasting. Best wishes for the journey ahead. 👋🙏",
+              "Wishing you a fond farewell, {name}. Your dedication and professionalism have set a high standard. May your next chapter be equally rewarding. 👋🌟",
+              "Farewell and best wishes, {name}. It has been a privilege to work alongside you. Your new role is fortunate to have you. 👋💐",
+              "As you embark on this new path, {name}, carry with you the knowledge that you have made a lasting difference here. Farewell and good luck. 👋✨"
+            ],
+            "casual": [
+              "Goodbye {name}! It won't be the same without you — wishing you the absolute best in everything ahead 👋😊",
+              "Farewell {name}! You've been amazing to work with. Don't be a stranger — stay in touch 👋❤️",
+              "See you later {name}! Not goodbye, just see you on the other side. Good luck with everything 👋🎉",
+              "All the best {name}! The next team is lucky to have you. We'll miss you here 👋💕",
+              "Bye {name}! Thanks for all the great times. Wishing you nothing but awesome things ahead 👋🎊"
+            ],
+            "funny": [
+              "Farewell {name}! Who's going to make us laugh in meetings now? This is a disaster 😂👋",
+              "Goodbye {name}! The good news is you're leaving. The bad news is you're taking the fun with you 🤣👋",
+              "Farewell {name}! Please take us with you. No? Fine. Good luck then 😂👋",
+              "See ya {name}! Remember — no matter where you go, our group chat will haunt you forever 🤣👋📱",
+              "Goodbye {name}! We're not crying, you're crying. Okay fine, we're all crying 😂👋😭"
+            ]
+          }
+        },
+        {
+          "id": "get-well-soon",
+          "label": "Get Well Soon",
+          "emoji": "💐",
+          "templates": {
+            "formal": [
+              "Wishing you a speedy recovery, {name}. Please take all the time you need to rest and heal. Your health is the top priority. 💐✨",
+              "Get well soon, {name}. Sending you my warmest wishes for a swift and complete recovery. You are in my thoughts. 💐🙏",
+              "I hope you feel better soon, {name}. May each day bring you renewed strength and energy as you recover. 💐🌟",
+              "Wishing you good health and a quick recovery, {name}. Please do not hesitate to reach out if there is anything I can do to help. 💐💐",
+              "Get well soon, {name}. Your resilience inspires everyone around you. Wishing you comfort and healing in the days ahead. 💐✨"
+            ],
+            "casual": [
+              "Get well soon {name}! Take it easy and focus on resting up. Sending all the good vibes your way 💐😊",
+              "Hope you feel better soon {name}! Missing you and can't wait to have you back at full energy ❤️💐",
+              "Get better fast {name}! Rest up, hydrate, and binge-watch something great. Doctor's orders 💐🎉",
+              "Sending healing vibes {name}! Take all the time you need — we'll be here when you're ready 💐💕",
+              "Get well soon {name}! Your health comes first — everything else can wait 💐😊"
+            ],
+            "funny": [
+              "Get well soon {name}! Milk this sick leave for all it's worth — you've earned it 😂💐",
+              "Feel better {name}! On the bright side, at least you don't have to deal with meetings today 🤣💐",
+              "Get well soon {name}! Your immune system just needs a software update. Reboot and you'll be fine 😂💐💻",
+              "Hope you feel better {name}! Remember — soup fixes everything. It's basically liquid magic 🤣💐🍲",
+              "Get well soon {name}! We miss you. Also we miss your snacks. But mostly you. Okay maybe 50-50 😂💐"
+            ]
+          }
+        },
+        {
+          "id": "welcome",
+          "label": "Welcome / Onboarding",
+          "emoji": "🤝",
+          "templates": {
+            "formal": [
+              "Welcome aboard, {name}. We are delighted to have you join our team and look forward to your valuable contributions. 🤝✨",
+              "A warm welcome to you, {name}. Your skills and experience are a wonderful addition to our organization. Wishing you a smooth and fulfilling start. 🤝🙏",
+              "Welcome, {name}. We are confident that your talent and dedication will make a significant impact. Please do not hesitate to reach out for any support. 🤝🌟",
+              "It is a pleasure to welcome you, {name}. May your journey with us be filled with growth, collaboration, and meaningful achievements. 🤝💐",
+              "Welcome to the team, {name}. We are excited about the perspective and expertise you bring. Here is to a great partnership ahead. 🤝✨"
+            ],
+            "casual": [
+              "Welcome to the team {name}! So glad to have you — you're going to love it here 🤝🎉",
+              "Hey {name}! Welcome aboard — we've been looking forward to having you join us 🤝😊",
+              "Welcome {name}! The team just got better. Let us know if you need anything at all ❤️🤝",
+              "Glad you're here {name}! Welcome to the crew — it's going to be a great ride 🤝🎊",
+              "Welcome {name}! Fresh energy, fresh ideas — we're pumped to work with you 🤝💕"
+            ],
+            "funny": [
+              "Welcome {name}! The coffee is bad but the people are great. You'll fit right in 😂🤝☕",
+              "Welcome aboard {name}! Pro tip — the printer never works. Just accept it now 🤣🤝🖨️",
+              "Hey {name}! Welcome to the team. The snack drawer is on the left. That's the most important onboarding info 😂🤝🍪",
+              "Welcome {name}! Don't worry — we're all pretending to know what we're doing. You'll blend right in 🤣🤝",
+              "Welcome to the team {name}! The WiFi password is more guarded than state secrets. Ask IT nicely 😂🤝📶"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
