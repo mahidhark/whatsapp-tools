@@ -9,7 +9,8 @@ Live at [whatsscale.com/tools](https://www.whatsscale.com/tools)
 | 3 | WhatsApp Greeting Generator | `/tools/whatsapp-greeting-generator` | ✅ Live |
 | 4 | Channel Growth Calculator | `/tools/channel-growth-calculator` | ✅ Live |
 | 5 | WhatsApp vs Telegram Comparison | `/tools/whatsapp-vs-telegram` | ✅ Live |
-| 6-12 | Remaining tools | — | 🔲 Planned |
+| 6 | Telegram to WhatsApp Migration Calculator | `/tools/telegram-to-whatsapp-migration` | ✅ Live |
+| 7-12 | Remaining tools | — | 🔲 Planned |
 ## Tool #5: WhatsApp vs Telegram Comparison
 Interactive side-by-side comparison with 29 features across 8 categories.
 - **3 use case views:** Creators, Business, Personal — toggle to filter relevant features
@@ -20,6 +21,18 @@ Interactive side-by-side comparison with 29 features across 8 categories.
 - **Accessibility:** tablist + aria-expanded + keyboard nav + aria-labels on stars
 - **Fairness:** Telegram wins 14, WhatsApp wins 10, 5 ties
 - **Tests:** 32 (12 data integrity + 2 SEOContent + 18 component)
+## Tool #6: Telegram to WhatsApp Migration Calculator
+
+Plan your migration from Telegram to WhatsApp Channel with projected timelines.
+
+- **3 inputs:** Telegram subscribers, audience overlap %, post frequency
+- **Migration curve:** Diminishing conversion applied to total reachable audience, 3 scenarios
+- **Strategy cards:** Gradual, Parallel, Full Switch — with pros/cons and dynamic timelines
+- **Risk matrix:** 4 waiting risks + 4 rushing risks with dynamic subscriber counts
+- **Special modes:** Start Fresh (TG=0), Migrate Manually (TG 1-49), enterprise CTA (100K+)
+- **PDF report:** Auth-gated, includes exclusive week-by-week action checklist
+- **Tests:** 63 (39 migration-model unit + 24 component)
+
 ## Tool #4: Channel Growth Calculator
 12-month follower projections with monetization estimates and niche benchmarks.
 - **Growth model:** Logistic dampening (S-curve) with 3 scenarios

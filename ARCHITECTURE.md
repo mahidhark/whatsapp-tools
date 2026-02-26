@@ -124,7 +124,9 @@ Each component has its own test file with Jest + React Testing Library.
 | PrivacyBadge | 2 | Text render, SVG icon |
 | ComparisonTool | 18 | Toggle, filter, expand/collapse, badges, stars, verdict, a11y |
 | wa-vs-tg data | 12 | JSON integrity, scores, fairness, verdicts, relevance filters |
-| **Total** | **68+** | |
+| migration-model | 39 | Mode detection, reachable calc, timeline curve, frequency multipliers, scenarios, strategy, risks, edge cases |
+| MigrationCalculator | 24 | Inputs, defaults, calculation flow, special modes, overlap slider, edge cases |
+| **Total** | **131+** | |
 
 ### Running Tests
 ```bash
@@ -147,6 +149,7 @@ Each tool page targets specific high-volume keywords:
 | Message Formatter | whatsapp bold italic text | 20K+ |
 | Greeting Generator | whatsapp greeting message | 15K+ |
 | WA vs Telegram | whatsapp vs telegram | 40K+ |
+| Migration Calculator | telegram to whatsapp | 3K+ |
 
 ### SEO Elements Per Tool
 - Meta title + description + keywords
@@ -165,12 +168,40 @@ Each tool page targets specific high-volume keywords:
 | 3 | WhatsApp Greeting Generator | Low | ✅ Live |
 | 4 | Channel Growth Calculator | Medium | ✅ Live |
 | 5 | WhatsApp vs Telegram Comparison | Medium | ✅ Live |
-| 6 | Telegram to WhatsApp Migration Calculator | Medium | ⬜ Planned |
+| 6 | Telegram to WhatsApp Migration Calculator | Medium | ✅ Live |
 | 7 | Auto-Reply Generator | Low | ⬜ Planned |
 | 8 | Character Counter | Low | ⬜ Planned |
 | 9 | Broadcast Calculator | Low | ⬜ Planned |
 | 10 | Chat Wrapped / Stats Analyzer | High | ⬜ Planned |
 | 11 | FPL League Roast Generator | High | ⬜ Planned |
+
+## Tool #6: Telegram to WhatsApp Migration Calculator
+
+### Files
+- `lib/utils/migration-model.ts` — Pure functions: mode detection, conversion curve, strategy logic, risk matrix
+- `lib/utils/migration-pdf.ts` — Client-side jsPDF report with week-by-week action checklist
+- `app/tools/telegram-to-whatsapp-migration/page.tsx` — Server component with metadata + FAQ schema
+- `app/tools/telegram-to-whatsapp-migration/MigrationCalculator.tsx` — Client component
+
+### Migration Model
+```
+reachable = tgSubscribers * (overlapPercent / 100)
+weeklyNew = reachable * baseRate * frequencyMult * scenarioMult
+cumulative = min(cumulative + weeklyNew, reachable)
+```
+
+Base rates diminish from 20% (week 1 announcement bump) to 2% (week 9+ long tail).
+Frequency multipliers: daily (1.3x), 2-3x/week (1.0x), weekly (0.7x), monthly (0.4x).
+Three scenarios: conservative (0.7x), expected (1.0x), optimistic (1.4x).
+
+### Three Modes
+- **Full** (50+ subs): Chart + strategy cards + risk matrix + PDF
+- **Start Fresh** (0 subs): WhatsApp advantages card, no migration chart
+- **Migrate Manually** (1-49 subs): Direct outreach tips, no chart, no PDF
+
+### Dependencies
+- recharts (AreaChart)
+- jspdf (PDF generation)
 
 ## Tool #5: WhatsApp vs Telegram Comparison
 
