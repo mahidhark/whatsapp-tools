@@ -169,3 +169,28 @@ Each tool page targets specific high-volume keywords:
 | 9 | Broadcast Calculator | Low | ⬜ Planned |
 | 10 | Chat Wrapped / Stats Analyzer | High | ⬜ Planned |
 | 11 | FPL League Roast Generator | High | ⬜ Planned |
+
+## Tool #4: Channel Growth Calculator
+
+### Files
+- `lib/data/niche-data.ts` — 10 niches with engagement, pricing, conversion, capacity
+- `lib/utils/growth-model.ts` — Pure functions: projections, milestones, benchmarks, monetization
+- `lib/utils/pdf-report.ts` — Client-side jsPDF report with chart embed
+- `app/tools/channel-growth-calculator/page.tsx` — Server component with metadata + FAQ schema
+- `app/tools/channel-growth-calculator/GrowthCalculator.tsx` — Client component
+
+### Growth Model
+```
+baseGrowthRate = 0.05
+engagementMult = min(userEngagement / nicheAvg, 2.5)
+frequencyMult = min(0.5 + postsPerWeek/10, 1.5)
+dampeningFactor = nicheCapacity / (nicheCapacity + followers)
+effectiveRate = baseGrowthRate * engagementMult * frequencyMult * dampeningFactor
+```
+
+Three scenarios: conservative (0.6x), expected (1.0x), optimistic (1.5x).
+Projections calculated iteratively (month-by-month with dampening recalculated each step).
+
+### Dependencies
+- recharts (LineChart)
+- jspdf (PDF generation)

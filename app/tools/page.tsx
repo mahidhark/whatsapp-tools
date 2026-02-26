@@ -48,15 +48,15 @@ const tools: Tool[] = [
     href: '/tools/whatsapp-message-formatter',
     emoji: '✏️',
     keyword: '20K+ searches/mo',
-    available: false,
+    available: true,
   },
   {
     name: 'WhatsApp Greeting Generator',
-    description: 'Generate professional greeting and away messages for WhatsApp Business.',
+    description: 'Generate ready-to-send greetings for birthdays, festivals, weddings & more. 30 occasions, 3 tones.',
     href: '/tools/whatsapp-greeting-generator',
     emoji: '👋',
     keyword: '15K+ searches/mo',
-    available: false,
+    available: true,
   },
   {
     name: 'Channel Growth Calculator',
@@ -64,7 +64,7 @@ const tools: Tool[] = [
     href: '/tools/channel-growth-calculator',
     emoji: '📈',
     keyword: '5K+ searches/mo',
-    available: false,
+    available: true,
   },
   {
     name: 'WhatsApp vs Telegram',
