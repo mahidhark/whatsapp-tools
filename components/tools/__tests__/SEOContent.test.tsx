@@ -62,3 +62,35 @@ describe('SEOContent', () => {
     expect(screen.getByText('Yes, completely free.')).toBeInTheDocument();
   });
 });
+
+// Tests 13-14: ReactNode content support (Tool #6 requirement)
+describe('SEOContent ReactNode support', () => {
+  it('renders JSX content with links and bold text', () => {
+    const jsxSections = [
+      {
+        heading: 'JSX Section',
+        content: React.createElement('div', null,
+          React.createElement('p', null, 'Text with a '),
+          React.createElement('a', { href: '/tools/channel-growth-calculator' }, 'link to calculator'),
+          React.createElement('p', null,
+            React.createElement('strong', null, 'Bold text'),
+            ' and normal text.'
+          )
+        ),
+      },
+    ];
+    render(<SEOContent sections={jsxSections} faqs={[]} />);
+    expect(screen.getByText('JSX Section')).toBeInTheDocument();
+    const link = screen.getByText('link to calculator');
+    expect(link.tagName).toBe('A');
+    expect(link).toHaveAttribute('href', '/tools/channel-growth-calculator');
+    expect(screen.getByText('Bold text')).toBeInTheDocument();
+    expect(screen.getByText('Bold text').tagName).toBe('STRONG');
+  });
+
+  it('still renders plain string content (backwards compatibility)', () => {
+    render(<SEOContent sections={mockSections} faqs={[]} />);
+    expect(screen.getByText('Content for section one.')).toBeInTheDocument();
+    expect(screen.getByText('Content for section two.')).toBeInTheDocument();
+  });
+});

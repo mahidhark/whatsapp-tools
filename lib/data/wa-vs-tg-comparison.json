@@ -1,0 +1,299 @@
+{
+  "lastUpdated": "2026-02",
+  "features": [
+    {
+      "id": 1,
+      "feature": "Monthly Active Users",
+      "category": "reach",
+      "whatsapp": { "score": 5, "summary": "3B+ MAU", "detail": "Over 3 billion monthly active users across 100+ countries. The default messaging app in India, Brazil, Indonesia, Nigeria, and most of Latin America, Africa, and South Asia. No separate download needed — your audience already has it." },
+      "telegram": { "score": 4, "summary": "1B MAU", "detail": "Hit 1 billion monthly active users in March 2025. Strong presence in Russia, Iran, Uzbekistan, Ethiopia, and parts of Southeast Asia. Requires a separate app download, which limits adoption in mainstream markets." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 2,
+      "feature": "Daily Engagement",
+      "category": "reach",
+      "whatsapp": { "score": 5, "summary": "38 min/day, 83% daily open rate", "detail": "Users open WhatsApp 23–25 times per week, spending an average of 38 minutes daily. 83% of users open the app every single day. Your Channel content lands in the same inbox as family messages." },
+      "telegram": { "score": 3, "summary": "~7.5 min/day average", "detail": "Average daily usage sits around 7.5 minutes. Users tend to be highly engaged within their niche communities but open the app less frequently than WhatsApp. Engagement is deep but narrow." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 3,
+      "feature": "Geographic Strength",
+      "category": "reach",
+      "whatsapp": { "score": 5, "summary": "Dominates creator economy markets", "detail": "Dominates the exact markets where the creator economy is booming: India (535M+ users, ~97% internet penetration), Brazil (139M), Indonesia (87M), Nigeria (52M). These aren't niche markets — they are the next wave of the creator economy." },
+      "telegram": { "score": 3, "summary": "Strong in CIS, Middle East", "detail": "Strong in CIS countries, Iran, parts of Africa and Southeast Asia. India has 20%+ of Telegram's user base, but WhatsApp penetration there is 97%. In most creator economy growth markets, Telegram is the secondary app." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 4,
+      "feature": "Audience Overlap",
+      "category": "reach",
+      "whatsapp": { "score": 4, "summary": "85% of TG users also on WhatsApp", "detail": "85% of Telegram users outside China already use WhatsApp. Migration from Telegram to WhatsApp has zero friction on the consumer side — your audience doesn't need to download anything new." },
+      "telegram": { "score": 3, "summary": "Niche-loyal communities", "detail": "Telegram audiences are loyal to their niche communities — especially crypto, tech, privacy, and developer circles. Less overlap with mainstream consumer audiences. Harder to replicate this community on other platforms." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 5,
+      "feature": "Channel Subscriber Limit",
+      "category": "channels",
+      "whatsapp": { "score": 5, "summary": "Unlimited", "detail": "No cap on channel size. Unlimited followers can join any WhatsApp Channel. The same infrastructure that handles 3 billion users backs your channel." },
+      "telegram": { "score": 5, "summary": "Unlimited", "detail": "No cap on channel subscribers. Telegram channels can grow to millions of subscribers with no restrictions. Some news channels have 10M+ subscribers." },
+      "winner": "tie",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 6,
+      "feature": "Content Persistence",
+      "category": "channels",
+      "whatsapp": { "score": 2, "summary": "Auto-deletes after 30 days", "detail": "All Channel content auto-deletes after 30 days. No native archive. New followers can't see your back catalog. Critical limitation for creators building evergreen content libraries. Workaround: use Make.com + WhatsScale to auto-archive to Google Sheets or Notion before content expires." },
+      "telegram": { "score": 5, "summary": "Permanent — stays forever", "detail": "All posts stay permanently. Full archive is accessible to new subscribers from day one. You can build a searchable content library that grows in value over time. No expiration, no data loss." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 7,
+      "feature": "Content Types",
+      "category": "channels",
+      "whatsapp": { "score": 3, "summary": "Text, images, video, polls, quizzes", "detail": "Supports text, images, video, polls, quizzes (new Dec 2025), questions (new Dec 2025), and voice messages with transcription. No file attachments in Channels. No stickers or GIFs as standalone posts." },
+      "telegram": { "score": 5, "summary": "Everything + 2GB files", "detail": "Text (up to 4,096 characters), images, video, files up to 2GB (any type), polls, quizzes, voice messages, location pins, stickers, GIFs, silent messages, and scheduled posts. The richest content toolkit of any broadcast platform." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 8,
+      "feature": "Discoverability",
+      "category": "channels",
+      "whatsapp": { "score": 4, "summary": "Updates tab + Promoted Channels", "detail": "Channels live in the Updates tab, used by 1.5 billion people daily. Searchable by name and category. Promoted Channels (paid visibility boost) launching 2025/2026. Channel QR codes for offline promotion. Chronological feed — no algorithm yet." },
+      "telegram": { "score": 3, "summary": "Search, t.me links, directories", "detail": "Global search by channel name, username-based discovery, t.me direct links, and third-party directories (XTEA, TDirectory, TGStat). Organic discovery is weaker than WhatsApp's native placement in a tab 1.5B people see daily." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 9,
+      "feature": "Engagement Features",
+      "category": "channels",
+      "whatsapp": { "score": 2, "summary": "Emoji reactions only", "detail": "Emoji reactions only. No comments, no replies, no discussions. Strictly one-way broadcast. Simple for creators to manage, but no way to build community around your content within the channel itself." },
+      "telegram": { "score": 5, "summary": "Reactions, comments, linked groups", "detail": "Reactions, comments (via linked discussion group), replies in group. Linked groups enable two-way conversation around channel content. You can build a community that discusses your posts, asks questions, and engages with each other." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 10,
+      "feature": "Channel Analytics",
+      "category": "channels",
+      "whatsapp": { "score": 3, "summary": "Basic — 30 days only", "detail": "Basic built-in analytics: accounts reached, regional ranking, follow/unfollow counts, emoji reaction counts, and poll results. Limited to last 30 days only. No third-party analytics ecosystem yet." },
+      "telegram": { "score": 5, "summary": "Deep built-in + third-party tools", "detail": "Built-in analytics: views, shares, growth trends, subscriber activity patterns. Plus a rich third-party ecosystem — TGStat, Telemetr, Popsters — for competitive benchmarking, content performance analysis, and audience demographics." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 11,
+      "feature": "Message Formatting",
+      "category": "content_tools",
+      "whatsapp": { "score": 3, "summary": "Basic markdown", "detail": "Bold (*text*), italic (_text_), strikethrough (~text~), and monospace (```text```). Basic but functional. No inline links, no underline, no spoiler tags, no code blocks with syntax highlighting." },
+      "telegram": { "score": 5, "summary": "Rich markdown + custom emoji", "detail": "Bold, italic, underline, strikethrough, monospace, spoiler tags, code blocks, custom emoji, inline hyperlinks, and quote blocks. The most complete formatting toolkit of any messaging platform." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 12,
+      "feature": "Native Scheduling",
+      "category": "content_tools",
+      "whatsapp": { "score": 1, "summary": "No native scheduling", "detail": "No native scheduling for Channels. Requires third-party tools (WhatsScale, Make.com) or the WhatsApp Business API. You cannot schedule a Channel post from the WhatsApp app itself." },
+      "telegram": { "score": 5, "summary": "Built-in + repeating schedules", "detail": "Built-in: schedule any post for a specific date and time directly in the app. December 2025 update added repeating scheduled messages. No third-party tools needed for basic scheduling." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 13,
+      "feature": "File Sharing",
+      "category": "content_tools",
+      "whatsapp": { "score": 1, "summary": "No files in Channels", "detail": "No file sharing in Channels. Only images, video, and voice messages. You cannot share PDFs, documents, ZIPs, or any file attachment through a WhatsApp Channel." },
+      "telegram": { "score": 5, "summary": "Up to 2GB, any file type", "detail": "Up to 2GB per file, any file type. Unlimited cloud storage. PDFs, ZIPs, APKs, source code, datasets — anything. This makes Telegram a distribution platform, not just a messaging app." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 14,
+      "feature": "Paid Subscriptions",
+      "category": "monetization",
+      "whatsapp": { "score": 4, "summary": "Channel Subscriptions (10% cut)", "detail": "Channel Subscriptions announced June 2025 at Cannes Lions. Monthly fee for exclusive updates. Meta takes only a 10% revenue cut — significantly more creator-friendly than most platforms. Currently rolling out globally." },
+      "telegram": { "score": 3, "summary": "Via bots + Premium features", "detail": "No native channel subscription feature. Paid access managed through third-party bots (Graphy, InviteMember). Telegram Premium (15M subscribers, 1.5% of users) unlocks extra features but isn't a creator monetization tool." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 15,
+      "feature": "Advertising & Promotion",
+      "category": "monetization",
+      "whatsapp": { "score": 4, "summary": "Promoted Channels + Meta Ads", "detail": "Promoted Channels (paid visibility in directory) and Ads in Status tab, both launching 2025/2026. Full Meta Ads Manager integration for sophisticated targeting. Access to the world's most advanced ad platform." },
+      "telegram": { "score": 3, "summary": "Telegram Ads (50% revenue share)", "detail": "Telegram Ads platform: CPM-based ads for channels with 1,000+ subscribers. Creators earn 50% of ad revenue. Less sophisticated targeting than Meta, but fully self-serve and built for channels." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 16,
+      "feature": "Tipping & Donations",
+      "category": "monetization",
+      "whatsapp": { "score": 1, "summary": "No native tipping", "detail": "No native tipping or donation feature. Creators must link to external payment platforms (PayPal, Buy Me a Coffee, etc.) manually in their Channel posts." },
+      "telegram": { "score": 4, "summary": "Stars, gifts, crypto bots", "detail": "Telegram Stars (in-app currency for tipping), digital gifts with real monetary value, and crypto payment bots. A native micro-transaction economy that no other messaging platform has matched." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": false, "personalRelevant": false
+    },
+    {
+      "id": 17,
+      "feature": "Commerce Integration",
+      "category": "monetization",
+      "whatsapp": { "score": 5, "summary": "Full Meta commerce ecosystem", "detail": "WhatsApp Business API: product catalogs, in-app payments, order management, cart functionality. Deep integration with Meta's commerce ecosystem, Shopify, and major e-commerce platforms. The most complete commerce solution in messaging." },
+      "telegram": { "score": 3, "summary": "Bot-based storefronts", "detail": "Bot-based storefronts and Mini Apps for in-app commerce. Payment bots with Stripe integration. Powerful and flexible but requires technical setup. No native product catalog or checkout flow." },
+      "winner": "depends",
+      "creatorRelevant": false, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 18,
+      "feature": "Bot Ecosystem",
+      "category": "automation",
+      "whatsapp": { "score": 2, "summary": "Business API only", "detail": "WhatsApp Business API for automated messaging. No public bot marketplace. Requires a Business Solution Provider (BSP) or direct API access. Higher barrier to entry, but production-grade reliability." },
+      "telegram": { "score": 5, "summary": "Massive open ecosystem", "detail": "Massive open bot ecosystem. @BotFather for instant creation — anyone can build a bot in minutes. Bot API is public and free. Thousands of community bots for every use case. Mini Apps platform extends bots into full web applications." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 19,
+      "feature": "Third-Party Automation",
+      "category": "automation",
+      "whatsapp": { "score": 3, "summary": "Make.com, Zapier via Business API", "detail": "Make.com, Zapier, and n8n integrations via WhatsApp Business Cloud API. WhatsScale adds channel management capabilities. Growing ecosystem but still limited for Channels specifically — most automation targets Business messaging." },
+      "telegram": { "score": 5, "summary": "Deep integrations everywhere", "detail": "Make.com, Zapier, n8n, and IFTTT all have native Telegram Bot integrations with rich trigger/action support. RSS-to-Telegram bots. Controller Bot for scheduled posts. Much deeper automation ecosystem with more mature tooling." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 20,
+      "feature": "Cross-Posting",
+      "category": "automation",
+      "whatsapp": { "score": 2, "summary": "Requires third-party tools", "detail": "No native cross-posting. Requires Make.com + WhatsScale or similar connector to automate content distribution. Manual copy-paste otherwise. The tooling gap is real but solvable with automation." },
+      "telegram": { "score": 4, "summary": "Native forwarding + bot tools", "detail": "Native forwarding between channels. Bot-based cross-posting to other platforms (Twitter, Instagram, etc.). RSS ingest for automatic content republishing. Much easier to build a multi-platform workflow." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 21,
+      "feature": "Encryption",
+      "category": "privacy",
+      "whatsapp": { "score": 4, "summary": "E2E for personal, server-side for Channels", "detail": "End-to-end encryption for all personal messages and calls — the gold standard. Channels use server-side encryption (not E2E), which is standard for broadcast platforms. Meta cannot read your personal chats." },
+      "telegram": { "score": 3, "summary": "Server-client default, E2E opt-in only", "detail": "Server-client encryption by default using MTProto protocol. End-to-end encryption only available in 'Secret Chats' — not available for channels, groups, or regular chats. This is a deliberate design choice for cloud sync." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 22,
+      "feature": "Data Sharing Policy",
+      "category": "privacy",
+      "whatsapp": { "score": 2, "summary": "Shares metadata with Meta", "detail": "Shares metadata with Meta ecosystem. Phone number required for account creation. Optional link to Meta Accounts Center (Facebook/Instagram). Limited data used for ad targeting in Updates tab. Personal messages not used for ads." },
+      "telegram": { "score": 2, "summary": "Policy reversed — now shares with law enforcement", "detail": "Major policy reversal in 2024: Telegram now shares IP addresses and phone numbers with law enforcement on valid legal requests. Previously, their FAQ explicitly stated they refused all such requests. The core privacy brand promise was broken." },
+      "winner": "tie",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 23,
+      "feature": "Platform Stability & Risk",
+      "category": "privacy",
+      "whatsapp": { "score": 5, "summary": "Meta-backed, globally stable", "detail": "Backed by Meta — massive infrastructure, no single-founder risk, not banned in any major market. Whatever you think of Meta, the platform isn't going anywhere. Your channel investment is safe." },
+      "telegram": { "score": 2, "summary": "CEO arrested, country bans spreading", "detail": "CEO Pavel Durov arrested August 2024 in Paris, facing 12 charges related to content moderation. Awaiting trial under judicial supervision, facing up to 10 years. Country bans in Vietnam, Kenya, Nepal, and parts of Russia. Single-founder dependency risk." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 24,
+      "feature": "Anonymity",
+      "category": "privacy",
+      "whatsapp": { "score": 2, "summary": "Phone number required, usernames coming 2026", "detail": "Phone number visible to contacts. Channel admin identity is visible. Usernames are confirmed for mid-2026 rollout, which will allow connecting without sharing your phone number. Until then, limited anonymity." },
+      "telegram": { "score": 4, "summary": "Usernames, anonymous admins", "detail": "Usernames already available. Channel admins can remain fully anonymous. Phone number can be hidden from everyone. Stronger pseudonymity built into the platform's DNA from day one." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 25,
+      "feature": "Group Size",
+      "category": "groups",
+      "whatsapp": { "score": 3, "summary": "Up to 1,024 members", "detail": "Up to 1,024 members per group. Communities feature connects multiple groups under one umbrella for larger organizations. Sufficient for small to medium communities." },
+      "telegram": { "score": 5, "summary": "Up to 200,000 members", "detail": "Up to 200,000 members per group — nearly 200x WhatsApp's limit. Forum-style topics within groups for organized discussions. Built for large-scale communities." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 26,
+      "feature": "Community Features",
+      "category": "groups",
+      "whatsapp": { "score": 4, "summary": "Communities with linked groups", "detail": "Communities: organize multiple groups under one umbrella with shared admin controls. Announcement groups for one-way updates. Good for schools, organizations, and businesses managing multiple sub-groups." },
+      "telegram": { "score": 4, "summary": "Forum topics + linked discussions", "detail": "Topics/Forum: thread-style discussions within a single group — like Discord channels but in Telegram. Linked discussion groups for channels enable community around broadcast content. Granular moderation with admin bots." },
+      "winner": "tie",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": true
+    },
+    {
+      "id": 27,
+      "feature": "Growth Rate",
+      "category": "growth",
+      "whatsapp": { "score": 5, "summary": "Fastest-adopted feature in Meta history", "detail": "WhatsApp Channels is the fastest-adopted feature in Meta's history. 500 million followers within months of launch. The Updates tab now reaches 1.5 billion people daily. Massive momentum with no signs of slowing." },
+      "telegram": { "score": 3, "summary": "Growth decelerating (5.3% YoY)", "detail": "Year-over-year growth dropped from roughly 30% in 2021 to 5.3% in 2025. Still growing, but decelerating significantly. The 1 billion MAU milestone was a major achievement, but the growth curve is flattening." },
+      "winner": "whatsapp",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 28,
+      "feature": "Monetization Maturity",
+      "category": "growth",
+      "whatsapp": { "score": 3, "summary": "Early stage — rolling out now", "detail": "Early stage. Subscriptions, promoted channels, and status ads all announced June 2025. Still rolling out globally. Meta takes a 10% cut on subscriptions — very creator-friendly. The infrastructure is coming but isn't fully live yet." },
+      "telegram": { "score": 4, "summary": "More mature but smaller scale", "detail": "More mature monetization ecosystem: Premium subscriptions (15M users), ad revenue sharing (50/50 split), Telegram Stars, paid bots, digital gifts. But the total addressable market is smaller due to lower user base." },
+      "winner": "telegram",
+      "creatorRelevant": true, "businessRelevant": true, "personalRelevant": false
+    },
+    {
+      "id": 29,
+      "feature": "Algorithm Status",
+      "category": "growth",
+      "whatsapp": { "score": 5, "summary": "Chronological — no algorithm yet", "detail": "Chronological feed with no algorithmic ranking. The leaderboard is dominated by football clubs and mega-brands. Individual creators have wide open space. This will change — Meta always introduces algorithms — but right now the window is open." },
+      "telegram": { "score": 5, "summary": "Chronological — unlikely to change", "detail": "No algorithm in channels. Chronological feed. Given Telegram's privacy-first ethos and founder philosophy, algorithmic ranking is unlikely to ever be introduced. Your posts reach 100% of subscribers, always." },
+      "winner": "tie",
+      "creatorRelevant": true, "businessRelevant": false, "personalRelevant": false
+    }
+  ],
+  "verdicts": [
+    {
+      "useCase": "creator",
+      "headline": "WhatsApp wins on reach. Telegram wins on tools. Smart creators use both.",
+      "summary": "WhatsApp Channels gives you access to 3B+ users with zero algorithmic gatekeeping — but the tooling is immature. Telegram gives you everything a creator needs to operate — but the audience is smaller and growth is slowing. The window for WhatsApp is now: before the algorithm arrives, before paid discovery dominates.",
+      "cta": "Use both? WhatsScale + Make.com cross-posts between WhatsApp and Telegram automatically. Zero manual effort.",
+      "ctaLink": "/blog/telegram-to-whatsapp-make-automation"
+    },
+    {
+      "useCase": "business",
+      "headline": "WhatsApp for customers. Telegram for operations.",
+      "summary": "WhatsApp is where your customers already are — 3B users, native commerce, Meta ad targeting, Business API for scale. Telegram excels as an internal tool: massive groups, powerful bots for workflow automation, file sharing at scale. Many businesses use WhatsApp externally and Telegram internally.",
+      "cta": "Need both? WhatsScale automates WhatsApp Business messaging while Make.com handles cross-platform workflows.",
+      "ctaLink": "/blog/telegram-to-whatsapp-make-automation"
+    },
+    {
+      "useCase": "personal",
+      "headline": "WhatsApp for everyone you know. Telegram for everything else.",
+      "summary": "WhatsApp is the default for family and friends in most countries — everyone already has it. Telegram offers superior features for power users: bigger files, better formatting, more privacy options, anonymous usernames. Most people use WhatsApp as their primary messenger and Telegram for interest-based communities.",
+      "cta": "Want to follow creators on WhatsApp? Search for Channels in the Updates tab. It's already on your phone.",
+      "ctaLink": "/tools/whatsapp-link-generator"
+    }
+  ],
+  "categories": {
+    "reach": "Reach & Audience",
+    "channels": "Channel Features",
+    "content_tools": "Content Tools & Formatting",
+    "monetization": "Monetization",
+    "automation": "Automation & Bots",
+    "privacy": "Privacy & Security",
+    "groups": "Groups & Community",
+    "growth": "Platform Growth Trajectory"
+  }
+}

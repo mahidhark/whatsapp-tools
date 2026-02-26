@@ -62,7 +62,7 @@ Located in `components/tools/`. Built incrementally — only created when first 
 | Component | File | Purpose | Used By |
 |-----------|------|---------|---------|
 | CopyButton | `CopyButton.tsx` | Click → clipboard → "Copied!" (2s) → revert. Fallback for older browsers via textarea hack. | All tools |
-| SEOContent | `SEOContent.tsx` | Below-fold wrapper. Renders H2 content sections + FAQ accordion. Injects schema.org FAQPage JSON-LD for rich results. | All tools |
+| SEOContent | `SEOContent.tsx` | Below-fold wrapper. Renders H2 content sections (supports React.ReactNode for JSX/links) + FAQ accordion. Injects schema.org FAQPage JSON-LD for rich results. | All tools |
 | ToolCTA | `ToolCTA.tsx` | Soft pitch card: "Need to automate this?" Links to WhatsScale signup. Customizable heading, description, button text. | All tools |
 | RelatedTools | `RelatedTools.tsx` | Grid of 3-4 related tool cards. Takes array of {name, href, emoji, description}. Returns null for empty array. | All tools |
 | PrivacyBadge | `PrivacyBadge.tsx` | Shield SVG icon + "Works offline. Your data stays on your device." | All tools |
@@ -118,11 +118,13 @@ Each component has its own test file with Jest + React Testing Library.
 |-----------|-------|--------|
 | LinkGenerator | 17 | Validation, link generation, QR, copy, edge cases, SEO sections |
 | CopyButton | 6 | Clipboard API, feedback state, disabled, timeout revert |
-| SEOContent | 6 | Sections render, FAQ accordion, expand/collapse, schema JSON-LD |
+| SEOContent | 8 | Sections render, FAQ accordion, expand/collapse, schema JSON-LD |
 | RelatedTools | 4 | Cards render, links correct, empty array handling |
 | ToolCTA | 3 | Default props, custom props, link href |
 | PrivacyBadge | 2 | Text render, SVG icon |
-| **Total** | **38** | |
+| ComparisonTool | 18 | Toggle, filter, expand/collapse, badges, stars, verdict, a11y |
+| wa-vs-tg data | 12 | JSON integrity, scores, fairness, verdicts, relevance filters |
+| **Total** | **68+** | |
 
 ### Running Tests
 ```bash
@@ -159,16 +161,38 @@ Each tool page targets specific high-volume keywords:
 | # | Tool | Complexity | Status |
 |---|------|-----------|--------|
 | 1 | WhatsApp Link Generator + QR Code | Low | ✅ Live |
-| 2 | WhatsApp Message Formatter | Low | ⬜ Planned |
-| 3 | WhatsApp Greeting Generator | Low | ⬜ Planned |
-| 4 | Channel Growth Calculator | Medium | ⬜ Planned |
-| 5 | WhatsApp vs Telegram Comparison | Medium | ⬜ Planned |
+| 2 | WhatsApp Message Formatter | Low | ✅ Live |
+| 3 | WhatsApp Greeting Generator | Low | ✅ Live |
+| 4 | Channel Growth Calculator | Medium | ✅ Live |
+| 5 | WhatsApp vs Telegram Comparison | Medium | ✅ Live |
 | 6 | Telegram to WhatsApp Migration Calculator | Medium | ⬜ Planned |
 | 7 | Auto-Reply Generator | Low | ⬜ Planned |
 | 8 | Character Counter | Low | ⬜ Planned |
 | 9 | Broadcast Calculator | Low | ⬜ Planned |
 | 10 | Chat Wrapped / Stats Analyzer | High | ⬜ Planned |
 | 11 | FPL League Roast Generator | High | ⬜ Planned |
+
+## Tool #5: WhatsApp vs Telegram Comparison
+
+### Files
+- `lib/data/wa-vs-tg-comparison.json` — 29 features, 3 verdicts, 8 category labels, lastUpdated field
+- `app/tools/whatsapp-vs-telegram/page.tsx` — Server component with metadata + WebApplication schema
+- `app/tools/whatsapp-vs-telegram/ComparisonTool.tsx` — Client component (553 lines)
+
+### Data Model
+Static JSON with typed features: id, feature, category, whatsapp/telegram (score + summary + detail), winner enum, 3 relevance boolean flags. Separate verdicts array per use case. Monthly refresh by editing JSON only.
+
+### Component Architecture
+All inline in ComparisonTool.tsx:
+- UseCaseToggle — 3 pills with tablist/aria-selected/keyboard nav
+- ScoreSummary — horizontal bar computed from filtered features
+- ComparisonTable — category headers + expandable rows (desktop: table, mobile: cards)
+- Stars — inline SVG, 1-5 filled, green for WA / blue for TG
+- WinnerBadge — color-coded: green/blue/gray/amber
+- VerdictCard — dynamic headline + summary + CTA per use case
+
+### Dependencies
+None. Pure React + Tailwind + inline SVG.
 
 ## Tool #4: Channel Growth Calculator
 

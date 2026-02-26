@@ -10,7 +10,7 @@ interface FAQ {
 }
 
 interface SEOContentProps {
-  sections: { heading: string; content: string }[];
+  sections: { heading: string; content: React.ReactNode }[];
   faqs: FAQ[];
 }
 
@@ -43,7 +43,7 @@ export default function SEOContent({ sections, faqs }: SEOContentProps) {
       {sections.map((section, i) => (
         <div key={i} className="mb-8">
           <h2 className="text-xl font-bold text-gray-900 mb-3">{section.heading}</h2>
-          <p className="text-gray-600 leading-relaxed">{section.content}</p>
+          <div className="text-gray-600 leading-relaxed">{section.content}</div>
         </div>
       ))}
 
